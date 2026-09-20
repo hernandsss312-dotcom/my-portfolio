@@ -32,3 +32,21 @@ p {
     border-radius: 6px;
     margin-top: 15px;
 }
+
+#about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about h3 {
+    margin-top: 25px;
+}
+
+#about p {
+    line-height: 1.6;
+}
