@@ -348,3 +348,11 @@ section {
     }
 
 }
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #7e0b11;
+    color: white;
+    text-align: center;
+}
