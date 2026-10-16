@@ -127,6 +127,16 @@ p {
     background-color: #7e0b11;
     color: white;
     box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .button {
+    margin-top: auto;
+    align-self: center;
+    color: white;
+    background-color: #1E88E5;
 }
 
 .project-card img {
@@ -147,4 +157,40 @@ p {
 .project-card .button {
     color: white;
     background-color: #1E88E5;
+}
+
+#education {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+#education h2 {
+    width: 50%;
+    color: white;
+    background-color: #1E88E5;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 auto 30px auto;
+}
+
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#education th,
+#education td {
+    border: 1px solid #13b929;
+    padding: 15px;
+}
+
+#education th {
+    background-color: #7e0b11;
+    color: white;
+}
+
+#education td {
+    background-color: #f4f4f4;
 }
