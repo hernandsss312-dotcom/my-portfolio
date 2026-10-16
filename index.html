@@ -205,11 +205,23 @@
 
     <h2>Contact Me</h2>
 
-    <p>You can contact me through my email and my phone number.</p>
+    <form>
 
-    <p>Email: kharlbryan.gaborno@carsu.edu.ph</p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-    <p>Phone: +639651091254z</p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+        <button type="submit">Send</button>
+
+    </form>
 
 </section>
 
