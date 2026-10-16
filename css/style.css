@@ -194,3 +194,30 @@ p {
 #education td {
     background-color: #f4f4f4;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    background-color: #7e0b11;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #1E88E5;
+}
+
+/* Prevent the navbar from covering sections */
+section {
+    scroll-margin-top: 80px;
+}
